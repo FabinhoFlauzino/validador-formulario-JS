@@ -80,5 +80,23 @@ body{
     text-align: left;
 }
 
+@media(max-width: 900px){
+    .screen{
+        flex-direction: column;
+    }
+    .leftside {
+       display: none;
+    }
+    .rightside{
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .rightside form{
+        width: 100%;
+        max-width: 440px;
+        margin: 30px auto;
+    }
+}
 
 
